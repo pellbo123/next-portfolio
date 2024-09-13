@@ -13,8 +13,8 @@ export default function Header(){
                 <div className={styles.navmenu}></div>
                 <ui className={styles.navlist}>
                     <li><Link href='/'>집</Link></li>
-                    <li><Link href='/about-me'>프로젝트</Link></li>
-                    <li><Link href='/404'>크넥트</Link></li>
+                    <li><Link href='/projects'>프로젝트</Link></li>
+                    <li><Link href='https://open.kakao.com/o/stbdHxOg'>크넥트</Link></li>
                 </ui>
 
             </nav>
