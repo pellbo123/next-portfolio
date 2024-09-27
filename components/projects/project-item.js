@@ -15,7 +15,7 @@ export default function ProjectItem({data}) {
     const github = data.properties?.github.url;
     const imgSrc = data.cover.file?.url || data.cover.external.url;
     const demo = data.properties?.Demo.url;
-    console.log(demo);
+    const imgUrl = data.properties?.Image.url;
     const router = useRouter();
 
     function countWorkDays(start,end){
@@ -35,7 +35,7 @@ export default function ProjectItem({data}) {
     return (
             
             <Card sx={{width: 345, display: 'flex', flexDirection: 'column', justifyContent: 'space-between'}}>
-            <CardMedia sx={{height : 300}} image={imgSrc} title={title}/>                   
+            <CardMedia sx={{height : 300}} image={imgUrl} title={title}/>                   
             <CardContent sx={{flexGrow: 1}}>
                     <Typography gutterBottom variant="h5" confirm= "div">
                         {title}
