@@ -22,7 +22,7 @@ export default function ProjectItem({data}) {
     function countWorkDays(start,end){
         const startDate = new Date(start);
         const endDate = new Date(end);
-
+        console.log("sex");
         let workdays = 0;
         let currentDate = new Date(startDate);
 
