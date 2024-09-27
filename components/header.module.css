@@ -1,11 +1,11 @@
 .header {
-    background-color: rgb(255, 0, 0);
+    background-color: rgb(255, 75, 75);
     margin: 0;
     padding: 0;
     
     top: 0; left: 0;
     width: 100%;
-    border-bottom: 2.5px solid rgb(0, 0, 0);
+    border-bottom: 2.5px solid rgb(255, 79, 79);
 }
 .navbar {
     display: flex;
@@ -18,7 +18,7 @@
     align-items:center;
     text-decoration: none;
     padding-left: 100px;
-    color: rgb(0, 0, 0);
+    color: rgb(249, 255, 218);
 }
 .nav_logo span{
     font-size: 25px;
